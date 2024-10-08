@@ -1,0 +1,51 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: #333;
+}
+
+.navbar-left .navbar-link,
+.navbar-right .navbar-link {
+  color: #fff;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+.upgrade-button,
+.sign-in-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.profile-icon img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  position: absolute;
+  right: 15px;
+  top: 60px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+
+.dropdown-item {
+  padding: 10px 15px;
+  cursor: pointer;
+  background-color: #fff;
+  border: none;
+  width: 100%;
+  text-align: left;
+}
+
+.dropdown-item:hover {
+  background-color: #f0f0f0;
+}
